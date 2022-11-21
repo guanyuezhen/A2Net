@@ -1,13 +1,44 @@
-# A2Net
+# Lightweight Remote Sensing Change Detection with Progressive Aggregation and Supervised Attention
 
-Lightweight Remote Sensing Change Detection with Progressive Aggregation and Supervised Attention
+## Get Start
+**1. Download Datasets**
 
-#### Acknowlogdement
+- [LEVIR](https://justchenhao.github.io/LEVIR/) 
 
-This repository is built under the help of the following projects for academic use only:
+- [BCDD](https://study.rsgis.whu.edu.cn/pages/download/building_dataset.html)
 
-* [BIT_CD](https://github.com/justchenhao/BIT_CD)
+- [SYSU](https://github.com/liumency/SYSU-CD)
 
-* [CDLab](https://github.com/Bobholamovic/CDLab)
+Prepare datasets into following structure,
+```
+├─Train
+    ├─A
+    ├─B
+    ├─label
+    └─list
+├─Val
+    ├─A
+    ├─B
+    ├─label
+    └─list
+├─Test
+    ├─A
+    ├─B
+    ├─label
+    └─list
+```
 
-* [MobileSal](https://github.com/yuhuan-wu/MobileSal)
+**2. Train**
+```
+sh ./tools/train.sh
+```
+
+**3. Test**
+```
+sh ./tools/test.sh
+```
+
+### Acknowlogdement
+
+This repository is built under the help of the projects [BIT_CD](https://github.com/justchenhao/BIT_CD), 
+[CDLab](https://github.com/Bobholamovic/CDLab), and [MobileSal](https://github.com/yuhuan-wu/MobileSal) for academic use only.
