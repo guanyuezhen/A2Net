@@ -49,7 +49,7 @@ A framework of the proposed A2Net. The temporal features are extracted from a re
 <p align="center">
     <img src="assest/benchmark_results.png"/> <br />
     <em> 
-    Quantitative comparisons of the proposed method with diverse settings in terms of $\kappa$, IoU, and F1 on three remote sensing change detection datasets.
+    Quantitative comparisons in terms of $\kappa$, IoU, F1, OA, Rec, and Pre on three remote sensing change detection datasets. The best and second best results are highlighted in <font color="#FF0000">red</font> and <font color="#00B0F0">blue</font>, respectively.
     </em>
 </p>
 
