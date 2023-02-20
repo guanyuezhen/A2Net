@@ -45,11 +45,19 @@ A framework of the proposed A2Net. The temporal features are extracted from a re
     - `sh ./tools/train.sh`
     - `sh ./tools/test.sh`
 
-### 3. Acknowlogdement
+### 3. Change Detection Results
+<p align="center">
+    <img src="assest/benchmark_results.png"/> <br />
+    <em> 
+    Quantitative comparisons of the proposed method with diverse settings in terms of $\kappa$, IoU, and F1 on three remote sensing change detection datasets.
+    </em>
+</p>
+
+### 4. Acknowlogdement
 This repository is built under the help of the projects [BIT_CD](https://github.com/justchenhao/BIT_CD), 
 [CDLab](https://github.com/Bobholamovic/CDLab), and [MobileSal](https://github.com/yuhuan-wu/MobileSal) for academic use only.
 
-### 4. Citation
+### 5. Citation
 
 Please cite our paper if you find the work useful:
 
