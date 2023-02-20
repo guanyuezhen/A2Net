@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # <p align=center>`Lightweight Remote Sensing Change Detection with Progressive Aggregation and Supervised Attention (IEEE TGRS 2023)`</p>
 
 > **Authors:**
