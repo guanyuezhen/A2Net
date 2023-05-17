@@ -16,7 +16,7 @@ A framework of the proposed A2Net. The temporal features are extracted from a re
 ### 2. Usage
 + Prepare the data:
     - Download datasets [LEVIR](https://justchenhao.github.io/LEVIR/), [BCDD](https://study.rsgis.whu.edu.cn/pages/download/building_dataset.html), and [SYSU](https://github.com/liumency/SYSU-CD)
-    - Crop LEVIR and BCDD datasets into 256x256 patches
+    - Crop LEVIR and BCDD datasets into 256x256 patches. The pre-processed BCDD dataset can be obtained from [BCDD_256x256](https://drive.google.com/file/d/1VrdQ-rxoGVM_8ecA-ObO0u-O8rSTpSHA/view?usp=sharing).
     - Generate list file as `ls -R ./label/* > test.txt`
     - Prepare datasets into following structure and set their path in `train.py` and `test.py`
     ```
