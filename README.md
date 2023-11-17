@@ -3,7 +3,7 @@
 > **Authors:**
 Zhenglai Li, Chang Tang, Xinwang Liu, Wei Zhang, Jie Dou, Lizhe Wang, Albert Zomaya
 
-This repository contains simple python implementation of our paper [A2Net](https://ieeexplore.ieee.org/abstract/document/10034814).
+This repository contains a simple python implementation of our paper [A2Net](https://ieeexplore.ieee.org/abstract/document/10034814).
 
 ### 1. Overview
 
@@ -18,7 +18,7 @@ A framework of the proposed A2Net. The temporal features are extracted from a re
     - Download datasets [LEVIR](https://justchenhao.github.io/LEVIR/), [BCDD](https://study.rsgis.whu.edu.cn/pages/download/building_dataset.html), and [SYSU](https://github.com/liumency/SYSU-CD)
     - Crop LEVIR and BCDD datasets into 256x256 patches. The pre-processed BCDD dataset can be obtained from [BCDD_256x256](https://drive.google.com/file/d/1VrdQ-rxoGVM_8ecA-ObO0u-O8rSTpSHA/view?usp=sharing).
     - Generate list file as `ls -R ./label/* > test.txt`
-    - Prepare datasets into following structure and set their path in `train.py` and `test.py`
+    - Prepare datasets into the following structure and set their path in `train.py` and `test.py`
     ```
     ├─Train
         ├─A        ...jpg/png
@@ -38,7 +38,7 @@ A framework of the proposed A2Net. The temporal features are extracted from a re
     ```
 
 + Prerequisites for Python:
-    - Creating a virtual environment in terminal: `conda create -n A2Net python=3.8`
+    - Creating a virtual environment in the terminal: `conda create -n A2Net python=3.8`
     - Installing necessary packages: `pip install -r requirements.txt `
 
 + Train/Test
@@ -53,8 +53,8 @@ A framework of the proposed A2Net. The temporal features are extracted from a re
     </em>
 </p>
 
-### 4. Acknowlogdement
-This repository is built under the help of the projects [BIT_CD](https://github.com/justchenhao/BIT_CD), 
+### 4. Acknowledgment
+This repository is built with the help of the projects [BIT_CD](https://github.com/justchenhao/BIT_CD), 
 [CDLab](https://github.com/Bobholamovic/CDLab), and [MobileSal](https://github.com/yuhuan-wu/MobileSal) for academic use only.
 
 ### 5. Citation
