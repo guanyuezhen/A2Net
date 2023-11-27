@@ -3,7 +3,9 @@
 > **Authors:**
 Zhenglai Li, Chang Tang, Xinwang Liu, Wei Zhang, Jie Dou, Lizhe Wang, Albert Zomaya
 
-This repository contains a simple python implementation of our paper [A2Net](https://ieeexplore.ieee.org/abstract/document/10034814).
+This repository contains a simple Python implementation of our paper [A2Net](https://ieeexplore.ieee.org/abstract/document/10034814).
+
+:fire: We provided the [pre-computed change maps](https://github.com/guanyuezhen/A2Net/releases/tag/v1.0) of FC-diff, FC-ef, FC-cat, STANet, L-Unet, SNUNet, DSIFN, BIT, TFI-GR, A2Net on LEVIR, BCDD, and SYSU datasets.
 
 ### 1. Overview
 
