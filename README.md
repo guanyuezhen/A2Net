@@ -10,7 +10,7 @@ This repository contains a simple Python implementation of our paper [A2Net](htt
 ### 1. Overview
 
 <p align="center">
-    <img src="assest/A2Net.jpg"/> <br />
+    <img width=500 src="assest/A2Net.jpg"/> <br />
 </p>
 
 A framework of the proposed A2Net. The temporal features are extracted from a registered pair of images by weight-shared MobileNetV2. Then, we use NAM to merge the temporal features within neighbor stages of the backbone to enhance their feature representation capability. PCIM is designed to capture the temporal change information from bi-temporal features at their corresponding feature levels. We stack SAM on each fusion of low-level and high-level features to polish the details of changed objects. Finally, a change map is obtained by gradually aggregating temporal difference features. <br>
